@@ -1,0 +1,335 @@
+{
+  "version": 6,
+  "validation": {
+    "int8": {
+      "support": 12,
+      "coco_metrics": {
+        "MaP": 0.17307296240757677,
+        "MaP@[IoU=50]": 0.34142031105944604,
+        "MaP@[IoU=75]": 0.17611862147753232,
+        "MaP@[area=small]": -1,
+        "MaP@[area=medium]": -1,
+        "MaP@[area=large]": 0.20524669039264465,
+        "Recall@[max_detections=1]": 0.4590909090909091,
+        "Recall@[max_detections=10]": 0.5681818181818182,
+        "Recall@[max_detections=100]": 0.5681818181818182,
+        "Recall@[area=small]": -1,
+        "Recall@[area=medium]": -1,
+        "Recall@[area=large]": 0.5681818181818182,
+        "support": {
+          "images": 12,
+          "annotations": 12,
+          "detections": 120
+        }
+      },
+      "coco_map": 0.2674027979373932,
+      "class_names": [
+        "Bowl",
+        "Broken_Bowl"
+      ],
+      "subgroup_metrics": {
+        "facetted": null,
+        "per_key": {
+          "class_name": {
+            "per_group": {
+              "Bowl": {
+                "support": 12,
+                "coco_metrics": {
+                  "MaP": 0.28614592481515355,
+                  "MaP@[IoU=50]": 0.5828406221188921,
+                  "MaP@[IoU=75]": 0.25223724295506467,
+                  "MaP@[area=small]": -1,
+                  "MaP@[area=medium]": -1,
+                  "MaP@[area=large]": 0.35049338078528924,
+                  "Recall@[max_detections=1]": 0.3181818181818182,
+                  "Recall@[max_detections=10]": 0.5363636363636364,
+                  "Recall@[max_detections=100]": 0.5363636363636364,
+                  "Recall@[area=small]": -1,
+                  "Recall@[area=medium]": -1,
+                  "Recall@[area=large]": 0.5363636363636364,
+                  "support": {
+                    "images": 12,
+                    "annotations": 11,
+                    "detections": 80
+                  }
+                },
+                "coco_map": 0.44591671228408813
+              },
+              "Broken_Bowl": {
+                "support": 12,
+                "coco_metrics": {
+                  "MaP": 0.06000000000000001,
+                  "MaP@[IoU=50]": 0.09999999999999998,
+                  "MaP@[IoU=75]": 0.09999999999999998,
+                  "MaP@[area=small]": -1,
+                  "MaP@[area=medium]": -1,
+                  "MaP@[area=large]": 0.06000000000000001,
+                  "Recall@[max_detections=1]": 0.6,
+                  "Recall@[max_detections=10]": 0.6,
+                  "Recall@[max_detections=100]": 0.6,
+                  "Recall@[area=small]": -1,
+                  "Recall@[area=medium]": -1,
+                  "Recall@[area=large]": 0.6,
+                  "support": {
+                    "images": 12,
+                    "annotations": 1,
+                    "detections": 40
+                  }
+                },
+                "coco_map": 0.08888889104127884
+              }
+            }
+          }
+        }
+      }
+    },
+    "float32": {
+      "support": 12,
+      "coco_metrics": {
+        "MaP": 0.35409808401654647,
+        "MaP@[IoU=50]": 0.6521632415342374,
+        "MaP@[IoU=75]": 0.4656585406439804,
+        "MaP@[area=small]": -1,
+        "MaP@[area=medium]": -1,
+        "MaP@[area=large]": 0.3813985148514852,
+        "Recall@[max_detections=1]": 0.5636363636363637,
+        "Recall@[max_detections=10]": 0.5863636363636364,
+        "Recall@[max_detections=100]": 0.5863636363636364,
+        "Recall@[area=small]": -1,
+        "Recall@[area=medium]": -1,
+        "Recall@[area=large]": 0.5863636363636364,
+        "support": {
+          "images": 12,
+          "annotations": 12,
+          "detections": 120
+        }
+      },
+      "coco_map": 0.5501941442489624,
+      "class_names": [
+        "Bowl",
+        "Broken_Bowl"
+      ],
+      "subgroup_metrics": {
+        "facetted": null,
+        "per_key": {
+          "class_name": {
+            "per_group": {
+              "Bowl": {
+                "support": 12,
+                "coco_metrics": {
+                  "MaP": 0.4081961680330929,
+                  "MaP@[IoU=50]": 0.8043264830684752,
+                  "MaP@[IoU=75]": 0.43131708128796076,
+                  "MaP@[area=small]": -1,
+                  "MaP@[area=medium]": -1,
+                  "MaP@[area=large]": 0.4627970297029704,
+                  "Recall@[max_detections=1]": 0.5272727272727272,
+                  "Recall@[max_detections=10]": 0.5727272727272728,
+                  "Recall@[max_detections=100]": 0.5727272727272728,
+                  "Recall@[area=small]": -1,
+                  "Recall@[area=medium]": -1,
+                  "Recall@[area=large]": 0.5727272727272728,
+                  "support": {
+                    "images": 12,
+                    "annotations": 11,
+                    "detections": 81
+                  }
+                },
+                "coco_map": 0.6503883600234985
+              },
+              "Broken_Bowl": {
+                "support": 12,
+                "coco_metrics": {
+                  "MaP": 0.3,
+                  "MaP@[IoU=50]": 0.5,
+                  "MaP@[IoU=75]": 0.5,
+                  "MaP@[area=small]": -1,
+                  "MaP@[area=medium]": -1,
+                  "MaP@[area=large]": 0.3,
+                  "Recall@[max_detections=1]": 0.6,
+                  "Recall@[max_detections=10]": 0.6,
+                  "Recall@[max_detections=100]": 0.6,
+                  "Recall@[area=small]": -1,
+                  "Recall@[area=medium]": -1,
+                  "Recall@[area=large]": 0.6,
+                  "support": {
+                    "images": 12,
+                    "annotations": 1,
+                    "detections": 39
+                  }
+                },
+                "coco_map": 0.44999998807907104
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "test": {
+    "int8": {
+      "support": 8,
+      "coco_metrics": {
+        "MaP": 0.6026732673267328,
+        "MaP@[IoU=50]": 1,
+        "MaP@[IoU=75]": 0.9084158415841584,
+        "MaP@[area=small]": -1,
+        "MaP@[area=medium]": -1,
+        "MaP@[area=large]": 0.6026732673267328,
+        "Recall@[max_detections=1]": 0.6071428571428571,
+        "Recall@[max_detections=10]": 0.6285714285714286,
+        "Recall@[max_detections=100]": 0.6285714285714286,
+        "Recall@[area=small]": -1,
+        "Recall@[area=medium]": -1,
+        "Recall@[area=large]": 0.6285714285714286,
+        "support": {
+          "images": 8,
+          "annotations": 8,
+          "detections": 17
+        }
+      },
+      "coco_map": 0.8574258089065552,
+      "class_names": [
+        "Bowl",
+        "Broken_Bowl"
+      ],
+      "subgroup_metrics": {
+        "facetted": null,
+        "per_key": {
+          "class_name": {
+            "per_group": {
+              "Bowl": {
+                "support": 8,
+                "coco_metrics": {
+                  "MaP": 0.6053465346534653,
+                  "MaP@[IoU=50]": 1,
+                  "MaP@[IoU=75]": 0.8168316831683168,
+                  "MaP@[area=small]": -1,
+                  "MaP@[area=medium]": -1,
+                  "MaP@[area=large]": 0.6053465346534653,
+                  "Recall@[max_detections=1]": 0.6142857142857142,
+                  "Recall@[max_detections=10]": 0.6571428571428571,
+                  "Recall@[max_detections=100]": 0.6571428571428571,
+                  "Recall@[area=small]": -1,
+                  "Recall@[area=medium]": -1,
+                  "Recall@[area=large]": 0.6571428571428571,
+                  "support": {
+                    "images": 8,
+                    "annotations": 7,
+                    "detections": 13
+                  }
+                },
+                "coco_map": 0.8148514628410339
+              },
+              "Broken_Bowl": {
+                "support": 8,
+                "coco_metrics": {
+                  "MaP": 0.5999999999999999,
+                  "MaP@[IoU=50]": 0.9999999999999999,
+                  "MaP@[IoU=75]": 0.9999999999999999,
+                  "MaP@[area=small]": -1,
+                  "MaP@[area=medium]": -1,
+                  "MaP@[area=large]": 0.5999999999999999,
+                  "Recall@[max_detections=1]": 0.6,
+                  "Recall@[max_detections=10]": 0.6,
+                  "Recall@[max_detections=100]": 0.6,
+                  "Recall@[area=small]": -1,
+                  "Recall@[area=medium]": -1,
+                  "Recall@[area=large]": 0.6,
+                  "support": {
+                    "images": 8,
+                    "annotations": 1,
+                    "detections": 4
+                  }
+                },
+                "coco_map": 0.8999999761581421
+              }
+            }
+          }
+        }
+      }
+    },
+    "float32": {
+      "support": 8,
+      "coco_metrics": {
+        "MaP": 0.6995792079207921,
+        "MaP@[IoU=50]": 0.9820544554455446,
+        "MaP@[IoU=75]": 0.9820544554455446,
+        "MaP@[area=small]": -1,
+        "MaP@[area=medium]": -1,
+        "MaP@[area=large]": 0.6995792079207921,
+        "Recall@[max_detections=1]": 0.7285714285714285,
+        "Recall@[max_detections=10]": 0.7285714285714285,
+        "Recall@[max_detections=100]": 0.7285714285714285,
+        "Recall@[area=small]": -1,
+        "Recall@[area=medium]": -1,
+        "Recall@[area=large]": 0.7285714285714285,
+        "support": {
+          "images": 8,
+          "annotations": 8,
+          "detections": 11
+        }
+      },
+      "coco_map": 0.8912748098373413,
+      "class_names": [
+        "Bowl",
+        "Broken_Bowl"
+      ],
+      "subgroup_metrics": {
+        "facetted": null,
+        "per_key": {
+          "class_name": {
+            "per_group": {
+              "Bowl": {
+                "support": 8,
+                "coco_metrics": {
+                  "MaP": 0.6991584158415841,
+                  "MaP@[IoU=50]": 0.9641089108910891,
+                  "MaP@[IoU=75]": 0.9641089108910891,
+                  "MaP@[area=small]": -1,
+                  "MaP@[area=medium]": -1,
+                  "MaP@[area=large]": 0.6991584158415841,
+                  "Recall@[max_detections=1]": 0.7571428571428572,
+                  "Recall@[max_detections=10]": 0.7571428571428572,
+                  "Recall@[max_detections=100]": 0.7571428571428572,
+                  "Recall@[area=small]": -1,
+                  "Recall@[area=medium]": -1,
+                  "Recall@[area=large]": 0.7571428571428572,
+                  "support": {
+                    "images": 8,
+                    "annotations": 7,
+                    "detections": 10
+                  }
+                },
+                "coco_map": 0.8825494647026062
+              },
+              "Broken_Bowl": {
+                "support": 8,
+                "coco_metrics": {
+                  "MaP": 0.6999999999999998,
+                  "MaP@[IoU=50]": 0.9999999999999999,
+                  "MaP@[IoU=75]": 0.9999999999999999,
+                  "MaP@[area=small]": -1,
+                  "MaP@[area=medium]": -1,
+                  "MaP@[area=large]": 0.6999999999999998,
+                  "Recall@[max_detections=1]": 0.7,
+                  "Recall@[max_detections=10]": 0.7,
+                  "Recall@[max_detections=100]": 0.7,
+                  "Recall@[area=small]": -1,
+                  "Recall@[area=medium]": -1,
+                  "Recall@[area=large]": 0.7,
+                  "support": {
+                    "images": 8,
+                    "annotations": 1,
+                    "detections": 1
+                  }
+                },
+                "coco_map": 0.8999999761581421
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
